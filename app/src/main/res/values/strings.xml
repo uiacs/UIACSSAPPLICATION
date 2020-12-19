@@ -85,4 +85,16 @@ Week 1
 Tugas/Materi
 </string>
 
+    <!-- strings.xml -->
+    <string name="daftar_tuga">
+
+Daftar Tugas
+</string>
+
+
+    <string name="nama_mata_k">
+
+Nama Mata Kuliah
+</string>
+
 </resources>
