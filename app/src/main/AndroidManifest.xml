@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UIACSSPLASH">
-        <activity android:name=".kalender"></activity>
+        <activity android:name=".profile"></activity>
+        <activity android:name=".kalender" />
         <activity android:name=".detailnotes" />
         <activity android:name=".note" />
         <activity android:name=".tugasdanmateri" />
