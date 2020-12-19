@@ -127,4 +127,19 @@ Agenda
 Profile
 </string>
 
+    <string name="are_you_sur">
+
+Are you sure?
+</string>
+
+    <string name="yes">
+
+Yes
+</string>
+
+    <string name="no">
+
+No
+</string>
+
 </resources>
