@@ -69,4 +69,20 @@ Kembali
 Kelas
 </string>
 
+    <string name="rpl_01">
+
+RPL-01
+</string>
+
+    <string name="week_1">
+
+Week 1
+</string>
+
+    <!-- strings.xml -->
+    <string name="tugas_mater">
+
+Tugas/Materi
+</string>
+
 </resources>
