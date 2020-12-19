@@ -180,5 +180,16 @@
 
     </style>
 
+    <style name="nama_notes">
+
+        <item name="android:textSize">
+            45sp
+        </item>
+
+        <item name="android:textColor">
+            #FFF9BF
+        </item>
+
+    </style>
 
 </resources>
