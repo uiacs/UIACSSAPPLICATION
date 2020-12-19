@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/qrcodelayout"
+    android:background="#FFFFFF"
+    tools:context=".qrcode">
+
+    <View
+        android:id="@+id/rectangle_15"
+        android:layout_width="248dp"
+        android:layout_height="241dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/rectangle_2"
+        />
+    <!-- Scan your teacher’s barcode or Input your code -->
+    <TextView
+        android:id="@+id/scan_your_t"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:text="@string/scan_your_t"
+        android:textAppearance="@style/scan_your_t"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <View
+        android:id="@+id/rectangle_16"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="567dp"
+        android:background="@drawable/rectangle_3"
+        />
+    <TextView
+        android:id="@+id/input_code"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="155dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="567dp"
+        android:text="@string/input_code"
+        android:textAppearance="@style/input_code"
+        android:gravity="center_vertical"
+        />
+
+
+</RelativeLayout>

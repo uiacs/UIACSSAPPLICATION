@@ -1,0 +1,18 @@
+<resources>xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ACS_SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFCD00 \</item>
+        <item name="colorPrimaryDark">#FFCD00</item>
+        <item name="colorAccent">#FFCD00</item>
+    </style>
+
+    <style name="Theme.UIACSSPLASH.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.UIACSSPLASH.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.UIACSSPLASH.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

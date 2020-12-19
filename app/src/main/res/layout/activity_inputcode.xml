@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/inputcode"
+    android:background="#E5E5E5"
+    tools:context=".inputcode">
+
+    <EditText
+        android:id="@+id/inputcodebyteacher"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/codebyteacher"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:inputType="text"
+        android:layout_marginTop="250dp"
+        android:background="#FFFFFF"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/rectangle_22"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/rectangle_3"
+        />
+
+    <TextView
+        android:id="@+id/input_code2"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:text="@string/input_code"
+        android:textAppearance="@style/input_code"
+        android:gravity="center_vertical"
+        />
+
+</RelativeLayout>
