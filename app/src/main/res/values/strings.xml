@@ -112,4 +112,14 @@ Notes 1
 Nama Notes
 </string>
 
+    <string name="kalender">
+
+Kalender
+</string>
+
+    <string name="agenda">
+
+Agenda
+</string>
+
 </resources>
