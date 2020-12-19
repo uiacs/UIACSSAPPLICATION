@@ -8,7 +8,73 @@
     android:background="#FFFFFF"
     tools:context=".codeappovement">
 
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="195dp"
+        android:layout_height="176dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="101dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/yellowcheck"
+        />
 
+    <TextView
+        android:id="@+id/anda_sudah_"
+        android:layout_width="334dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="384dp"
+        android:text="@string/anda_sudah_"
+        android:textAppearance="@style/anda_sudah_"
+        android:gravity="center_horizontal|center_vertical"
+        />
+    <View
+        android:id="@+id/rect_kls"
+        android:layout_width="298dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/rectangle_3"
+        />
+    <TextView
+        android:id="@+id/tampilkan_k"
+        android:layout_width="200dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:text="@string/tampilkan_k"
+        android:textAppearance="@style/tampilkan_k"
+        android:gravity="center_vertical"
+        />
 
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="298dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/rectangle_4"
+        />
 
+    <TextView
+        android:id="@+id/kembali"
+        android:layout_width="169dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="555dp"
+        android:text="@string/kembali"
+        android:textAppearance="@style/kembali"
+        android:gravity="center_horizontal|center_vertical"
+        />
 </RelativeLayout>

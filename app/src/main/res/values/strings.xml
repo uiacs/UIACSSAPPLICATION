@@ -48,4 +48,20 @@ Input Code
 </string>
 
     <string name="codebyteacher">Code By Teacher</string>
+
+    <string name="anda_sudah_">
+
+Anda sudah diabsen pada matkul terkait
+</string>
+
+    <string name="tampilkan_k">
+
+Tampilkan Kelas
+</string>
+
+    <string name="kembali">
+
+Kembali
+</string>
+
 </resources>
