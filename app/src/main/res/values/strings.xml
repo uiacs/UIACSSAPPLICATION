@@ -97,4 +97,14 @@ Daftar Tugas
 Nama Mata Kuliah
 </string>
 
+    <string name="notes">
+
+Notes
+</string>
+
+    <string name="notes_1">
+
+Notes 1
+</string>
+
 </resources>
